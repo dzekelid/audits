@@ -7,11 +7,77 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "264121"
 tags: Audits
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/predix/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Asset - Get domain object audit records.
+  x-api-slug: v1systemaudit-get
+  description: For detailed documentation of all available query options please refer
+    to Predix Asset Documentation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/predix/v1systemaudit-get-openapi.md
+- name: Asset - Get property-level audit records.
+  x-api-slug: v1systemauditchanges-get
+  description: For detailed documentation of all available query options please refer
+    to Predix Asset Documentation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/predix/v1systemauditchanges-get-openapi.md
+- name: Asset - Get domain object audit records.
+  x-api-slug: v1systemaudit-get
+  description: For detailed documentation of all available query options please refer
+    to Predix Asset Documentation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/predix/v1systemaudit-get-openapi.md
+- name: Asset - Get property-level audit records.
+  x-api-slug: v1systemauditchanges-get
+  description: For detailed documentation of all available query options please refer
+    to Predix Asset Documentation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/predix/v1systemauditchanges-get-openapi.md
+- name: Asset - Get property-level audit records.
+  x-api-slug: v1systemauditchanges-get
+  description: For detailed documentation of all available query options please refer
+    to Predix Asset Documentation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/predix/v1systemauditchanges-get-openapi.md
+- name: Asset - Get domain object audit records.
+  x-api-slug: v1systemaudit-get
+  description: For detailed documentation of all available query options please refer
+    to Predix Asset Documentation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/predix/v1systemaudit-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://predicthq.api.gallery.streamdata.io

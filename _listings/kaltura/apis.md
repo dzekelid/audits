@@ -14,8 +14,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kalt
 x-kinRank: "7"
 x-alexaRank: "23496"
 tags: Audits
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/apis.md
 specificationVersion: "0.14"
 apis:
@@ -179,6 +179,86 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionlist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionlist-get-openapi.md
+- name: Kaltura VPaaS - Get Service Audit Audittrail Action List
+  x-api-slug: serviceaudit-audittrailactionlist-get
+  description: List audit trail objects by filter and pager
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
+  humanURL: http://kaltura.com
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionlist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionlist-get-openapi.md
+- name: Kaltura VPaaS - Get Service Audit Audittrail Action Get
+  x-api-slug: serviceaudit-audittrailactionget-get
+  description: Retrieve an audit trail object by id
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
+  humanURL: http://kaltura.com
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionget-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionget-get-openapi.md
+- name: Kaltura VPaaS - Get Service Audit Audittrail Action Add
+  x-api-slug: serviceaudit-audittrailactionadd-get
+  description: Allows you to add an audit trail object and audit trail content associated
+    with Kaltura object
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
+  humanURL: http://kaltura.com
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionadd-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionadd-get-openapi.md
+- name: Kaltura VPaaS - Get Service Audit Audittrail Action List
+  x-api-slug: serviceaudit-audittrailactionlist-get
+  description: List audit trail objects by filter and pager
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
+  humanURL: http://kaltura.com
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionlist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionlist-get-openapi.md
+- name: Kaltura VPaaS - Get Service Audit Audittrail Action Get
+  x-api-slug: serviceaudit-audittrailactionget-get
+  description: Retrieve an audit trail object by id
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
+  humanURL: http://kaltura.com
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionget-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionget-get-openapi.md
+- name: Kaltura VPaaS - Get Service Audit Audittrail Action Add
+  x-api-slug: serviceaudit-audittrailactionadd-get
+  description: Allows you to add an audit trail object and audit trail content associated
+    with Kaltura object
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
+  humanURL: http://kaltura.com
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionadd-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/kaltura/serviceaudit-audittrailactionadd-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://jumpseller.api.gallery.streamdata.io

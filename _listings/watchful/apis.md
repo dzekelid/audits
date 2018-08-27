@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Audits
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/watchful/apis.md
 specificationVersion: "0.14"
 apis:
@@ -61,6 +61,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/watchful/auditsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/watchful/auditsid-get-openapi.md
+- name: Watchful - Return Audits For A Specific Website
+  x-api-slug: sitesidaudits-get
+  description: Return audits for a specific website
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
+  humanURL: http://watchful.li
+  baseURL: https://watchful.li//api/v1
+  tags: Monitoring, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/watchful/sitesidaudits-get-openapi.md
+- name: Watchful - Create An Audit For The Site
+  x-api-slug: sitesidaudits-post
+  description: Create an audit for the site
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
+  humanURL: http://watchful.li
+  baseURL: https://watchful.li//api/v1
+  tags: Monitoring, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/watchful/sitesidaudits-post-openapi.md
+- name: Watchful - Create A Audit
+  x-api-slug: audits-post
+  description: Create a audit.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg
+  humanURL: http://watchful.li
+  baseURL: https://watchful.li//api/v1
+  tags: Monitoring, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audits/master/_listings/watchful/audits-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://washington.metropolitan.area.transit.authority.api.gallery.streamdata.io
